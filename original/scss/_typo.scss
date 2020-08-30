@@ -1,0 +1,61 @@
+h1 {
+    color: #4A221A;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 20px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+    }
+}
+
+h2 {
+        color: darkgoldenrod;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 32px;
+        margin-top: 0;
+}
+
+
+h3 {
+  color: #764C24;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+h4 {
+  color: darkgoldenrod;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h5  {
+  color: #764C24;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+h6 {
+  color: slategrey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+p   {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}

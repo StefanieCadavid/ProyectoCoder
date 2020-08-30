@@ -1,0 +1,168 @@
+h1 {
+    color: #4A221A;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 20px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+h2 {
+    color: darkgoldenrod;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #764C24;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h4 {
+    color: darkgoldenrod;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h5  {
+    color: #764C24;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+h6 {
+    color: slategrey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+p   {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+form {
+    background-color:#68443d;
+    align-content: center;
+    padding: 20px;
+}
+
+label   {
+    color: rgb(155, 147, 137);
+}
+
+#button {
+    background-color:#E0A45E;
+}
+
+button:hover {
+    background-color:#bb670d;
+    font-weight: 600;  
+}
+
+footer    {
+    align-items: center;
+    background-image: linear-gradient(to bottom, #F6F2E9, #E0A45E  );
+    padding: 20px;
+    grid-area: footer;
+}
+
+.MenuPrincipal  {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 400px;
+}
+
+
+.Logo {
+    width: 40px;
+    margin-left: 40px;
+}
+
+header {
+    grid-area: header;
+    align-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color:#F6F2E9;
+    display: flex;
+}
+
+
+.MenuSecundario {
+    color: #4A221A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+
+.Busqueda {
+    font-family: 'Roboto', sans-serif;
+    color: #E0A45E;
+    border: dotted;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Fondo__claroEncabezado {
+    background-color: #F6F2E9;
+    background-image: url(images/bread-026.jpg.png);
+    background-repeat: no-repeat;
+    background-position: right;  
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.Fondo__claro {
+    background-color: #F6F2E9;
+    padding: 20px;
+}
+
+.Fondo__blanco {
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.FondoCafe {
+    background-color: #4A221A;
+    padding: 40px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Imagen__encabezado {
+    width: auto;
+    height: 100px;
+}
+
+.Imagen__fundadores   {
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+
+
+

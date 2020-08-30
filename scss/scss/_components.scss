@@ -1,0 +1,43 @@
+#button {
+    background-color:#E0A45E;
+    $color:darkgoldenrod;
+    
+    &:hover {
+        color:$color;
+        &:before {
+            width: 100%;
+        }
+    }
+}
+
+#button__secodary {
+    background-color: white;
+    border-width: 1px;
+    border-color: #E0A45E;
+    color: #E0A45E;
+    &:hover {
+        background-color:#bb670d;
+        font-weight: 600;  
+    }
+}
+
+.Imagen__encabezado {
+    width: auto;
+    height: 100px;
+    &:hover {
+        -webkit-transform:scale(1.3);transform:scale(1.3);
+    }
+}
+
+.Imagen__fundadores   {
+    border-radius: 20px;
+    width: 200px;
+    &:hover{
+        filter: grayscale(80%);
+    }
+}
+
+.Logo {
+    width: 40px;
+    margin-left: 40px;
+}
